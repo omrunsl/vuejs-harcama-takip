@@ -35,7 +35,7 @@ const app = new Vue({
 			}
 		},
 		clearForm() {
-			this.dataItem = { Title: '', Price: ''}
+			this.dataItem = { Title: '', Price: '', List: ''}
 		},
 		listItemSave() {
 			if (this.newListItem.Title != null) {
